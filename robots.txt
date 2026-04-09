@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /wp-content/plugins/
+Disallow: /wp-includes/
+
+Sitemap: https://visajskin.com/sitemap.xml
