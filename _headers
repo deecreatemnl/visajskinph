@@ -2,15 +2,13 @@
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
 
-/wp-content/themes/*
+/css/*
   Cache-Control: public, max-age=31536000, immutable
 
-/wp-content/plugins/*
+/js/*
   Cache-Control: public, max-age=31536000, immutable
 
-/wp-content/uploads/*
+/images/*
   Cache-Control: public, max-age=2592000
-
-/wp-includes/*
-  Cache-Control: public, max-age=31536000, immutable

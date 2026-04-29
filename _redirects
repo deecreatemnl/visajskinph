@@ -1,7 +1,5 @@
 # Cloudflare Pages redirects
-/home           /index.html     301
-/home/          /index.html     301
-/shop           /shop/          301
-/about          /about/         301
-/contact        /contact/       301
-/faqs           /faqs/          301
+/home        /index.html        301
+/home/       /index.html        301
+/products    /shop/index.html   301
+/products/   /shop/index.html   301
