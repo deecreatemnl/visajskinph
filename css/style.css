@@ -155,7 +155,7 @@ p  { color: var(--gray); line-height: 1.75; }
 .product-badge { display: flex; align-items: center; gap: 6px; font-size: .82rem; font-weight: 600; color: var(--green); background: var(--green-bg); padding: 6px 14px; border-radius: 50px; }
 
 .product-tabs { margin-top: 40px; }
-.tab-list { display: flex; gap: 0; border-bottom: 2px solid var(--gray-lt); margin-bottom: 28px; overflow-x: auto; }
+.tab-list { display: flex; gap: 0; border-bottom: 2px solid var(--gray-lt); margin-bottom: 28px; }
 .tab-btn { padding: 12px 24px; font-size: .9rem; font-weight: 600; color: var(--gray); background: none; border-bottom: 2px solid transparent; margin-bottom: -2px; transition: var(--transition); white-space: nowrap; }
 .tab-btn.active, .tab-btn:hover { color: var(--green); border-bottom-color: var(--green); }
 .tab-panel { display: none; }
