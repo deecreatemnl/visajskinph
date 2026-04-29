@@ -1,4 +1,14 @@
 .DS_Store
 Thumbs.db
 *.log
+<<<<<<< HEAD
 node_modules/
+=======
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
+>>>>>>> ae59785d22b0fe3f4a7f099267bef4ac9a407217
